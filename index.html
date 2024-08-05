@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Searching 2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container">
+                <p>Movie <span>Corner</span></p>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Your Favourite Movie :</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title" id="movie-search-box" onkeyup="findMovies()">
+
+                <div class="search-list hide-search-list" id="search-list">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
